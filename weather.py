@@ -48,7 +48,7 @@ def click():
             l1 = Label(frame, text="Weather: " + weather)
             l1.configure(background='#E3FBF7')
             l1.pack()
-            temperature = Label(frame, text= "Temperatura: "+str(temp))
+            temperature = Label(frame, text= "Temperature: "+str(temp))
             temperature.configure(background='#E3FBF7')
             temperature.pack()
             tempmin = Label(frame, text= "Temp min: "+str(tempmin))
